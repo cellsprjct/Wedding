@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#0f1830">
+    <meta name="description" content="Undangan Pernikahan Ida & Taslim">
+    <title>Farida & Izal — Wedding Invitation</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ============ BUNGA JATUH ============ -->
+    <div class="floating-petals" id="petals"></div>
+
+    <!-- ============ BINTIK EMAS BACKGROUND ============ -->
+    <div class="gold-dots" id="goldDots"></div>
+
+    <!-- ============ COVER ============ -->
+<section class="cover" id="cover">
+    <div class="cover-box">
+
+        <!-- Background foto cover.png -->
+        <div class="cover-photo-bg"></div>
+        <div class="cover-photo-overlay"></div>
+
+        <!-- Ornamen bunga kiri atas -->
+        <div class="cover-ornament orn-tl">
+            <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <radialGradient id="covTlGoldA" cx="50%" cy="50%">
+                        <stop offset="0%" stop-color="#f5e5b8"/>
+                        <stop offset="100%" stop-color="#c6a76a"/>
+                    </radialGradient>
+                    <radialGradient id="covTlCream" cx="50%" cy="50%">
+                        <stop offset="0%" stop-color="#ffffff"/>
+                        <stop offset="100%" stop-color="#e6d1a1"/>
+                    </radialGradient>
+                </defs>
+
+                <path d="M15 90 Q 60 50, 130 40" stroke="#a8843e" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+                <path d="M30 130 Q 80 95, 140 85" stroke="#a8843e" stroke-width="1.2" fill="none" stroke-linecap="round" opacity="0.7"/>
+                <path d="M50 50 Q 80 25, 130 20" stroke="#a8843e" stroke-width="1.2" fill="none" stroke-linecap="round" opacity="0.7"/>
+
+                <ellipse cx="45" cy="75" rx="26" ry="9" fill="#7a9080" transform="rotate(-35 45 75)" opacity="0.9"/>
+                <ellipse cx="75" cy="55" rx="22" ry="8" fill="#8ba090" transform="rotate(-25 75 55)" opacity="0.9"/>
+                <ellipse cx="105" cy="42" rx="20" ry="7" fill="#7a9080" transform="rotate(-15 105 42)" opacity="0.9"/>
+                <ellipse cx="40" cy="105" rx="20" ry="7" fill="#8ba090" transform="rotate(-55 40 105)" opacity="0.9"/>
+                <ellipse cx="70" cy="120" rx="22" ry="8" fill="#7a9080" transform="rotate(-45 70 120)" opacity="0.9"/>
+
+                <ellipse cx="60" cy="42" rx="24" ry="9" fill="#1e2a4a" transform="rotate(-40 60 42)"/>
+                <ellipse cx="100" cy="30" rx="22" ry="8" fill="#1e2a4a" transform="rotate(-20 100 30)"/>
+                <ellipse cx="35" cy="88" rx="22" ry="8" fill="#1e2a4a" transform="rotate(-60 35 88)"/>
+
+                <g transform="translate(140 60)">
+                    <ellipse cx="0" cy="-30" rx="15" ry="28" fill="url(#covTlCream)" stroke="#e6d1a1" stroke-width="0.5"/>
+                    <ellipse cx="28" cy="-9" rx="15" ry="28" fill="url(#covTlCream)" stroke="#e6d1a1" stroke-width="0.5" transform="rotate(72 0 0)"/>
+                    <ellipse cx="18" cy="24" rx="15" ry="28" fill="url(#covTlCream)" stroke="#e6d1a1" stroke-width="0.5" transform="rotate(144 0 0)"/>
+                    <ellipse cx="-18" cy="24" rx="15" ry="28" fill="url(#covTlCream)" stroke="#e6d1a1" stroke-width="0.5" transform="rotate(216 0 0)"/>
+                    <ellipse cx="-28" cy="-9" rx="15" ry="28" fill="url(#covTlCream)" stroke="#e6d1a1" stroke-width="0.5" transform="rotate(288 0 0)"/>
+                    <circle cx="0" cy="0" r="10" fill="url(#covTlGoldA)"/>
+                    <circle cx="0" cy="0" r="4" fill="#8a6a42"/>
+                </g>
+
+                <g transform="translate(200 100)">
+                    <ellipse cx="0" cy="-20" rx="10" ry="18" fill="url(#covTlGoldA)"/>
+                    <ellipse cx="19" cy="-6" rx="10" ry="18" fill="url(#covTlGoldA)" transform="rotate(72 0 0)"/>
+                    <ellipse cx="12" cy="16" rx="10" ry="18" fill="url(#covTlGoldA)" transform="rotate(144 0 0)"/>
+                    <ellipse cx="-12" cy="16" rx="10" ry="18" fill="url(#covTlGoldA)" transform="rotate(216 0 0)"/>
+                    <ellipse cx="-19" cy="-6" rx="10" ry="18" fill="url(#covTlGoldA)" transform="rotate(288 0 0)"/>
+                    <circle cx="0" cy="0" r="6" fill="#8a6a42"/>
+                </g>
+
+                <g transform="translate(100 90)">
+                    <ellipse cx="0" cy="-14" rx="7" ry="13" fill="#1e2a4a"/>
+                    <ellipse cx="13" cy="-4" rx="7" ry="13" fill="#1e2a4a" transform="rotate(72 0 0)"/>
+                    <ellipse cx="8" cy="11" rx="7" ry="13" fill="#1e2a4a" transform="rotate(144 0 0)"/>
+                    <ellipse cx="-8" cy="11" rx="7" ry="13" fill="#1e2a4a" transform="rotate(216 0 0)"/>
+                    <ellipse cx="-13" cy="-4" rx="7" ry="13" fill="#1e2a4a" transform="rotate(288 0 0)"/>
+                    <circle cx="0" cy="0" r="4" fill="#c6a76a"/>
+                </g>
+
+                <circle cx="180" cy="30" r="2.5" fill="#c6a76a" opacity="0.8"/>
+                <circle cx="220" cy="60" r="1.8" fill="#c6a76a" opacity="0.7"/>
+                <circle cx="30" cy="40" r="1.8" fill="#c6a76a" opacity="0.7"/>
+                <circle cx="240" cy="40" r="1.2" fill="#a8843e" opacity="0.6"/>
+            </svg>
+        </div>
+
+        <!-- Konten teks -->
+        <div class="cover-inner">
+            <div class="mini-label">THE WEDDING OF</div>
+            <h1 class="cover-names">AFridzal <em>&</em> Farida</h1>
+            <div class="cover-rule"><span></span> ✦ <span></span></div>
+            <p class="cover-date">30 · 09 · 2026</p>
+            <p class="cover-welcome">
+                Dengan penuh kehormatan, kami mengundang<br>
+                Bapak, Ibu dan Saudara(i) untuk hadir<br>
+                di hari istimewa kami.
+            </p>
+            <button class="open-btn" onclick="openInvitation()">
+                <span>✦</span> Buka Undangan <span>✦</span>
+            </button>
+        </div>
+
+        <!-- Ornamen bunga kanan bawah -->
+        <div class="cover-ornament orn-br">
+            <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <radialGradient id="covBrGoldA" cx="50%" cy="50%">
+                        <stop offset="0%" stop-color="#f5e5b8"/>
+                        <stop offset="100%" stop-color="#c6a76a"/>
+                    </radialGradient>
+                    <radialGradient id="covBrCream" cx="50%" cy="50%">
+                        <stop offset="0%" stop-color="#ffffff"/>
+                        <stop offset="100%" stop-color="#e6d1a1"/>
+                    </radialGradient>
+                </defs>
+
+                <path d="M15 90 Q 60 50, 130 40" stroke="#a8843e" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+                <path d="M30 130 Q 80 95, 140 85" stroke="#a8843e" stroke-width="1.2" fill="none" stroke-linecap="round" opacity="0.7"/>
+                <path d="M50 50 Q 80 25, 130 20" stroke="#a8843e" stroke-width="1.2" fill="none" stroke-linecap="round" opacity="0.7"/>
+
+                <ellipse cx="45" cy="75" rx="26" ry="9" fill="#7a9080" transform="rotate(-35 45 75)" opacity="0.9"/>
+                <ellipse cx="75" cy="55" rx="22" ry="8" fill="#8ba090" transform="rotate(-25 75 55)" opacity="0.9"/>
+                <ellipse cx="105" cy="42" rx="20" ry="7" fill="#7a9080" transform="rotate(-15 105 42)" opacity="0.9"/>
+                <ellipse cx="40" cy="105" rx="20" ry="7" fill="#8ba090" transform="rotate(-55 40 105)" opacity="0.9"/>
+                <ellipse cx="70" cy="120" rx="22" ry="8" fill="#7a9080" transform="rotate(-45 70 120)" opacity="0.9"/>
+
+                <ellipse cx="60" cy="42" rx="24" ry="9" fill="#1e2a4a" transform="rotate(-40 60 42)"/>
+                <ellipse cx="100" cy="30" rx="22" ry="8" fill="#1e2a4a" transform="rotate(-20 100 30)"/>
+                <ellipse cx="35" cy="88" rx="22" ry="8" fill="#1e2a4a" transform="rotate(-60 35 88)"/>
+
+                <g transform="translate(140 60)">
+                    <ellipse cx="0" cy="-30" rx="15" ry="28" fill="url(#covBrCream)" stroke="#e6d1a1" stroke-width="0.5"/>
+                    <ellipse cx="28" cy="-9" rx="15" ry="28" fill="url(#covBrCream)" stroke="#e6d1a1" stroke-width="0.5" transform="rotate(72 0 0)"/>
+                    <ellipse cx="18" cy="24" rx="15" ry="28" fill="url(#covBrCream)" stroke="#e6d1a1" stroke-width="0.5" transform="rotate(144 0 0)"/>
+                    <ellipse cx="-18" cy="24" rx="15" ry="28" fill="url(#covBrCream)" stroke="#e6d1a1" stroke-width="0.5" transform="rotate(216 0 0)"/>
+                    <ellipse cx="-28" cy="-9" rx="15" ry="28" fill="url(#covBrCream)" stroke="#e6d1a1" stroke-width="0.5" transform="rotate(288 0 0)"/>
+                    <circle cx="0" cy="0" r="10" fill="url(#covBrGoldA)"/>
+                    <circle cx="0" cy="0" r="4" fill="#8a6a42"/>
+                </g>
+
+                <g transform="translate(200 100)">
+                    <ellipse cx="0" cy="-20" rx="10" ry="18" fill="url(#covBrGoldA)"/>
+                    <ellipse cx="19" cy="-6" rx="10" ry="18" fill="url(#covBrGoldA)" transform="rotate(72 0 0)"/>
+                    <ellipse cx="12" cy="16" rx="10" ry="18" fill="url(#covBrGoldA)" transform="rotate(144 0 0)"/>
+                    <ellipse cx="-12" cy="16" rx="10" ry="18" fill="url(#covBrGoldA)" transform="rotate(216 0 0)"/>
+                    <ellipse cx="-19" cy="-6" rx="10" ry="18" fill="url(#covBrGoldA)" transform="rotate(288 0 0)"/>
+                    <circle cx="0" cy="0" r="6" fill="#8a6a42"/>
+                </g>
+
+                <g transform="translate(100 90)">
+                    <ellipse cx="0" cy="-14" rx="7" ry="13" fill="#1e2a4a"/>
+                    <ellipse cx="13" cy="-4" rx="7" ry="13" fill="#1e2a4a" transform="rotate(72 0 0)"/>
+                    <ellipse cx="8" cy="11" rx="7" ry="13" fill="#1e2a4a" transform="rotate(144 0 0)"/>
+                    <ellipse cx="-8" cy="11" rx="7" ry="13" fill="#1e2a4a" transform="rotate(216 0 0)"/>
+                    <ellipse cx="-13" cy="-4" rx="7" ry="13" fill="#1e2a4a" transform="rotate(288 0 0)"/>
+                    <circle cx="0" cy="0" r="4" fill="#c6a76a"/>
+                </g>
+
+                <circle cx="180" cy="30" r="2.5" fill="#c6a76a" opacity="0.8"/>
+                <circle cx="220" cy="60" r="1.8" fill="#c6a76a" opacity="0.7"/>
+                <circle cx="30" cy="40" r="1.8" fill="#c6a76a" opacity="0.7"/>
+                <circle cx="240" cy="40" r="1.2" fill="#a8843e" opacity="0.6"/>
+            </svg>
+        </div>
+    </div>
+    <p class="cover-hint">Sentuh untuk membuka</p>
+</section>
+
+    <!-- ============ MAIN ============ -->
+    <main class="main-wrapper" id="mainWrapper">
+        <div class="card-frame">
+
+            <!-- Ornamen bunga kiri atas (sama seperti cover) -->
+            <div class="card-ornament orn-tl">
+                <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <radialGradient id="cardTlGoldA" cx="50%" cy="50%">
+                            <stop offset="0%" stop-color="#f5e5b8"/>
+                            <stop offset="100%" stop-color="#c6a76a"/>
+                        </radialGradient>
+                        <radialGradient id="cardTlCream" cx="50%" cy="50%">
+                            <stop offset="0%" stop-color="#ffffff"/>
+                            <stop offset="100%" stop-color="#e6d1a1"/>
+                        </radialGradient>
+                    </defs>
+
+                    <path d="M15 90 Q 60 50, 130 40" stroke="#a8843e" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+                    <path d="M30 130 Q 80 95, 140 85" stroke="#a8843e" stroke-width="1.2" fill="none" stroke-linecap="round" opacity="0.7"/>
+                    <path d="M50 50 Q 80 25, 130 20" stroke="#a8843e" stroke-width="1.2" fill="none" stroke-linecap="round" opacity="0.7"/>
+
+                    <ellipse cx="45" cy="75" rx="26" ry="9" fill="#7a9080" transform="rotate(-35 45 75)" opacity="0.85"/>
+                    <ellipse cx="75" cy="55" rx="22" ry="8" fill="#8ba090" transform="rotate(-25 75 55)" opacity="0.85"/>
+                    <ellipse cx="105" cy="42" rx="20" ry="7" fill="#7a9080" transform="rotate(-15 105 42)" opacity="0.85"/>
+                    <ellipse cx="40" cy="105" rx="20" ry="7" fill="#8ba090" transform="rotate(-55 40 105)" opacity="0.85"/>
+
+                    <ellipse cx="60" cy="42" rx="24" ry="9" fill="#1e2a4a" transform="rotate(-40 60 42)"/>
+                    <ellipse cx="100" cy="30" rx="22" ry="8" fill="#1e2a4a" transform="rotate(-20 100 30)"/>
+                    <ellipse cx="35" cy="88" rx="22" ry="8" fill="#1e2a4a" transform="rotate(-60 35 88)"/>
+
+                    <g transform="translate(140 60)">
+                        <ellipse cx="0" cy="-30" rx="15" ry="28" fill="url(#cardTlCream)" stroke="#e6d1a1" stroke-width="0.5"/>
+                        <ellipse cx="28" cy="-9" rx="15" ry="28" fill="url(#cardTlCream)" stroke="#e6d1a1" stroke-width="0.5" transform="rotate(72 0 0)"/>
+                        <ellipse cx="18" cy="24" rx="15" ry="28" fill="url(#cardTlCream)" stroke="#e6d1a1" stroke-width="0.5" transform="rotate(144 0 0)"/>
+                        <ellipse cx="-18" cy="24" rx="15" ry="28" fill="url(#cardTlCream)" stroke="#e6d1a1" stroke-width="0.5" transform="rotate(216 0 0)"/>
+                        <ellipse cx="-28" cy="-9" rx="15" ry="28" fill="url(#cardTlCream)" stroke="#e6d1a1" stroke-width="0.5" transform="rotate(288 0 0)"/>
+                        <circle cx="0" cy="0" r="10" fill="url(#cardTlGoldA)"/>
+                        <circle cx="0" cy="0" r="4" fill="#8a6a42"/>
+                    </g>
+
+                    <g transform="translate(200 100)">
+                        <ellipse cx="0" cy="-20" rx="10" ry="18" fill="url(#cardTlGoldA)"/>
+                        <ellipse cx="19" cy="-6" rx="10" ry="18" fill="url(#cardTlGoldA)" transform="rotate(72 0 0)"/>
+                        <ellipse cx="12" cy="16" rx="10" ry="18" fill="url(#cardTlGoldA)" transform="rotate(144 0 0)"/>
+                        <ellipse cx="-12" cy="16" rx="10" ry="18" fill="url(#cardTlGoldA)" transform="rotate(216 0 0)"/>
+                        <ellipse cx="-19" cy="-6" rx="10" ry="18" fill="url(#cardTlGoldA)" transform="rotate(288 0 0)"/>
+                        <circle cx="0" cy="0" r="6" fill="#8a6a42"/>
+                    </g>
+
+                    <g transform="translate(100 90)">
+                        <ellipse cx="0" cy="-14" rx="7" ry="13" fill="#1e2a4a"/>
+                        <ellipse cx="13" cy="-4" rx="7" ry="13" fill="#1e2a4a" transform="rotate(72 0 0)"/>
+                        <ellipse cx="8" cy="11" rx="7" ry="13" fill="#1e2a4a" transform="rotate(144 0 0)"/>
+                        <ellipse cx="-8" cy="11" rx="7" ry="13" fill="#1e2a4a" transform="rotate(216 0 0)"/>
+                        <ellipse cx="-13" cy="-4" rx="7" ry="13" fill="#1e2a4a" transform="rotate(288 0 0)"/>
+                        <circle cx="0" cy="0" r="4" fill="#c6a76a"/>
+                    </g>
+
+                    <circle cx="180" cy="30" r="2.5" fill="#c6a76a" opacity="0.7"/>
+                    <circle cx="220" cy="60" r="1.8" fill="#c6a76a" opacity="0.6"/>
+                    <circle cx="30" cy="40" r="1.8" fill="#c6a76a" opacity="0.6"/>
+                </svg>
+            </div>
+
+            <!-- Ornamen bunga kanan bawah -->
+            <div class="card-ornament orn-br">
+                <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <radialGradient id="cardBrGoldA" cx="50%" cy="50%">
+                            <stop offset="0%" stop-color="#f5e5b8"/>
+                            <stop offset="100%" stop-color="#c6a76a"/>
+                        </radialGradient>
+                        <radialGradient id="cardBrCream" cx="50%" cy="50%">
+                            <stop offset="0%" stop-color="#ffffff"/>
+                            <stop offset="100%" stop-color="#e6d1a1"/>
+                        </radialGradient>
+                    </defs>
+
+                    <path d="M15 90 Q 60 50, 130 40" stroke="#a8843e" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+                    <path d="M30 130 Q 80 95, 140 85" stroke="#a8843e" stroke-width="1.2" fill="none" stroke-linecap="round" opacity="0.7"/>
+                    <path d="M50 50 Q 80 25, 130 20" stroke="#a8843e" stroke-width="1.2" fill="none" stroke-linecap="round" opacity="0.7"/>
+
+                    <ellipse cx="45" cy="75" rx="26" ry="9" fill="#7a9080" transform="rotate(-35 45 75)" opacity="0.85"/>
+                    <ellipse cx="75" cy="55" rx="22" ry="8" fill="#8ba090" transform="rotate(-25 75 55)" opacity="0.85"/>
+                    <ellipse cx="105" cy="42" rx="20" ry="7" fill="#7a9080" transform="rotate(-15 105 42)" opacity="0.85"/>
+                    <ellipse cx="40" cy="105" rx="20" ry="7" fill="#8ba090" transform="rotate(-55 40 105)" opacity="0.85"/>
+
+                    <ellipse cx="60" cy="42" rx="24" ry="9" fill="#1e2a4a" transform="rotate(-40 60 42)"/>
+                    <ellipse cx="100" cy="30" rx="22" ry="8" fill="#1e2a4a" transform="rotate(-20 100 30)"/>
+                    <ellipse cx="35" cy="88" rx="22" ry="8" fill="#1e2a4a" transform="rotate(-60 35 88)"/>
+
+                    <g transform="translate(140 60)">
+                        <ellipse cx="0" cy="-30" rx="15" ry="28" fill="url(#cardBrCream)" stroke="#e6d1a1" stroke-width="0.5"/>
+                        <ellipse cx="28" cy="-9" rx="15" ry="28" fill="url(#cardBrCream)" stroke="#e6d1a1" stroke-width="0.5" transform="rotate(72 0 0)"/>
+                        <ellipse cx="18" cy="24" rx="15" ry="28" fill="url(#cardBrCream)" stroke="#e6d1a1" stroke-width="0.5" transform="rotate(144 0 0)"/>
+                        <ellipse cx="-18" cy="24" rx="15" ry="28" fill="url(#cardBrCream)" stroke="#e6d1a1" stroke-width="0.5" transform="rotate(216 0 0)"/>
+                        <ellipse cx="-28" cy="-9" rx="15" ry="28" fill="url(#cardBrCream)" stroke="#e6d1a1" stroke-width="0.5" transform="rotate(288 0 0)"/>
+                        <circle cx="0" cy="0" r="10" fill="url(#cardBrGoldA)"/>
+                        <circle cx="0" cy="0" r="4" fill="#8a6a42"/>
+                    </g>
+
+                    <g transform="translate(200 100)">
+                        <ellipse cx="0" cy="-20" rx="10" ry="18" fill="url(#cardBrGoldA)"/>
+                        <ellipse cx="19" cy="-6" rx="10" ry="18" fill="url(#cardBrGoldA)" transform="rotate(72 0 0)"/>
+                        <ellipse cx="12" cy="16" rx="10" ry="18" fill="url(#cardBrGoldA)" transform="rotate(144 0 0)"/>
+                        <ellipse cx="-12" cy="16" rx="10" ry="18" fill="url(#cardBrGoldA)" transform="rotate(216 0 0)"/>
+                        <ellipse cx="-19" cy="-6" rx="10" ry="18" fill="url(#cardBrGoldA)" transform="rotate(288 0 0)"/>
+                        <circle cx="0" cy="0" r="6" fill="#8a6a42"/>
+                    </g>
+
+                    <g transform="translate(100 90)">
+                        <ellipse cx="0" cy="-14" rx="7" ry="13" fill="#1e2a4a"/>
+                        <ellipse cx="13" cy="-4" rx="7" ry="13" fill="#1e2a4a" transform="rotate(72 0 0)"/>
+                        <ellipse cx="8" cy="11" rx="7" ry="13" fill="#1e2a4a" transform="rotate(144 0 0)"/>
+                        <ellipse cx="-8" cy="11" rx="7" ry="13" fill="#1e2a4a" transform="rotate(216 0 0)"/>
+                        <ellipse cx="-13" cy="-4" rx="7" ry="13" fill="#1e2a4a" transform="rotate(288 0 0)"/>
+                        <circle cx="0" cy="0" r="4" fill="#c6a76a"/>
+                    </g>
+
+                    <circle cx="180" cy="30" r="2.5" fill="#c6a76a" opacity="0.7"/>
+                    <circle cx="220" cy="60" r="1.8" fill="#c6a76a" opacity="0.6"/>
+                    <circle cx="30" cy="40" r="1.8" fill="#c6a76a" opacity="0.6"/>
+                </svg>
+            </div>
+
+            <!-- ============ SCROLL AREA ============ -->
+            <div class="scroll-area" id="scrollArea">
+
+                <!-- 1. INTRO -->
+                <section class="section section-intro">
+                    <div class="ornament-top">❦</div>
+                    <p class="eyebrow">BISMILLAHIRRAHMANIRRAHIM</p>
+                    <h2 class="display-title">A beautiful beginning of<br><i>a lifetime together.</i></h2>
+                    <p class="lead">
+                        Dengan memohon rahmat dan ridho Allah SWT,
+                        kami bermaksud menyelenggarakan pernikahan putra-putri kami.
+                    </p>
+
+                    <div class="couple-wrap">
+                        <div class="couple-card">
+                            <div class="role">THE GROOM</div>
+                            <h3>Muh. Afridzal</h3>
+                        </div>
+
+                        <div class="between-couple">
+                            <div class="ring"></div>
+                            <div class="and">&amp;</div>
+                        </div>
+
+                        <div class="couple-card">
+                            <div class="role">THE BRIDE</div>
+                            <h3>Farida</h3>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 2. QUOTE -->
+                <section class="section section-quote">
+                    <span class="quote-mark">"</span>
+                    <p class="quote-text">
+                        Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan
+                        untukmu pasangan hidup dari jenismu sendiri, supaya kamu
+                        merasa tenteram kepadanya.
+                    </p>
+                    <p class="quote-source">QS. AR-RUM : 21</p>
+                </section>
+
+                <!-- 3. WAKTU & TEMPAT -->
+                <section class="section section-schedule">
+                    <p class="eyebrow">WAKTU &amp; TEMPAT</p>
+                    <h2 class="section-title">Rangkaian Acara</h2>
+                    <div class="rule"><span></span><i>❦</i><span></span></div>
+
+                    <div class="event-list">
+                        <article class="event-card">
+                            <div class="event-number">01</div>
+                            <div class="event-icon">♢</div>
+                            <div class="event-type">RESEPSI</div>
+                            <h3>Rabu</h3>
+                            <strong>30 September 2026</strong>
+                            <p class="time">11.00 WITA — Selesai</p>
+                            <div class="event-line"></div>
+                            <p class="event-address">Gedung Saodenrae Convention Hall</p>
+        
+                        </article>
+                    </div>
+                </section>
+
+                <!-- 4. WEDDING GIFT -->
+                <section class="section section-gift">
+                    <p class="eyebrow">WEDDING GIFT</p>
+                    <h2 class="section-title">Tanda Kasih</h2>
+                    <div class="rule"><span></span><i>❦</i><span></span></div>
+                    <p class="section-subtitle">
+                        Doa dan kehadiran Anda adalah hadiah terindah.
+                        Bagi yang ingin memberi tanda kasih, dapat melalui:
+                    </p>
+
+                    <div class="gift-grid">
+                        <article class="bank-card">
+                            <div class="bank-top">
+                                <span class="bank-chip"></span>
+                                <span>WEDDING GIFT</span>
+                            </div>
+                            <div class="bank-logo">E-Wallet Dana</div>
+                            <div class="account-number">085242006506</div>
+                            <div class="account-holder">a.n. <b>MARCEL</b></div>
+                            <button class="copy-button" onclick="copyAccount('50854917668')">
+                                SALIN NOMOR
+                            </button>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- 5. RSVP -->
+                <section class="section section-rsvp">
+                    <p class="eyebrow">RSVP &amp; WISHES</p>
+                    <h2 class="section-title">Konfirmasi &amp; Ucapan</h2>
+                    <div class="rule"><span></span><i>❦</i><span></span></div>
+                    <p class="section-subtitle">
+                        Kehadiran dan doa Anda menjadi bagian indah dari cerita kami.
+                    </p>
+
+                    <form id="wishForm" class="wish-form">
+                        <div class="field-row">
+                            <input id="name" type="text" placeholder="Nama Anda" required>
+                            <select id="attendance">
+                                <option value="Insya Allah Hadir">Insya Allah Hadir</option>
+                                <option value="Tidak Bisa Hadir">Tidak Bisa Hadir</option>
+                                <option value="Masih Ragu">Masih Ragu</option>
+                            </select>
+                        </div>
+                        <textarea id="message" placeholder="Tulis ucapan dan doa terbaik..." required></textarea>
+                        <button class="gold-button" type="submit">
+                            KIRIM UCAPAN <span>→</span>
+                        </button>
+                    </form>
+
+                    <div class="wish-list" id="wishList"></div>
+                </section>
+
+                <!-- 6. FOOTER (Foto dalam Bingkai) -->
+                <footer class="section-footer-photo">
+                    <div class="footer-photo-frame">
+                        <div class="footer-ornament">❦</div>
+
+                        <div class="footer-photo-img">
+                            <div class="footer-photo-text">
+                                <div class="footer-monogram">A <i>&</i> F</div>
+                                <div class="footer-names">Afridzal <i>&</i> Farida</div>
+                                <div class="footer-date">30 · 09 · 2026</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-caption">
+                        Terima kasih telah menjadi bagian dari hari bahagia kami.
+                        <small>WEDDING INVITATION</small>
+                    </div>
+                </footer>
+
+            </div>
+
+            <!-- HINT SCROLL -->
+            <div class="scroll-hint" id="scrollHint">
+                <span>Geser ke atas</span>
+                <i>⌃</i>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- ============ FLOATING CONTROLS ============ -->
+    <div class="floating-controls">
+        <button id="musicBtn" class="round-btn" onclick="toggleMusic()" title="Musik">🎵</button>
+        <button id="topBtn" class="round-btn" onclick="scrollToTop()" title="Ke atas">↑</button>
+    </div>
+
+    <!-- ============ AUDIO ============ -->
+    <audio id="bgMusic" loop preload="auto" playsinline>
+        <source src="backsound.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
